@@ -56,7 +56,7 @@ BOT_TOKEN = getenv("BOT_TOKEN")
 # Get your mongo url from cloud.mongodb.com
 MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
-DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 600))
+DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 18000))
 
 # Set this to true if you want post ads automatically
 ADS_MODE = getenv("ADS_MODE", None)
@@ -76,7 +76,7 @@ HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
 UPSTREAM_REPO = getenv(
     "UPSTREAM_REPO",
-    "https://github.com/riteshxcoder/AloneMusicc",
+    "https://github.com/Yewsdhi/QUEENAMUSICAOTUPLAY",
 )
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "master")
 GIT_TOKEN = getenv(
@@ -84,10 +84,10 @@ GIT_TOKEN = getenv(
 )  # Fill this variable if your upstream repository is private
 
 
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/MeowQti")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/TheAloneteam")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/ll_DPZ_WORLDS_lll")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/about_Maahi_XD")
 # Set this to True if you want the assistant to automatically leave chats after an interval
-AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", None))
+AUTO_LEAVING_ASSISTANT = bool(getenv("AUTO_LEAVING_ASSISTANT", True))
 
 
 # Get this credentials from https://developer.spotify.com/dashboard
